@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://lb8wfn64kptn"]
+[gd_scene load_steps=51 format=3 uid="uid://lb8wfn64kptn"]
 
 [ext_resource type="Texture2D" uid="uid://ctknedbrx1r55" path="res://imagens/Image.png" id="1_k46e6"]
 [ext_resource type="Script" uid="uid://bkefisk0n2fkw" path="res://scripts/jogo.gd" id="1_srya6"]
@@ -12,28 +12,28 @@
 [ext_resource type="Script" uid="uid://dlmsc36k5oq01" path="res://scripts/pausa.gd" id="10_pausa"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3bt0w"]
-size = Vector2(6.6635723, 157.63095)
+size = Vector2(6.66357, 157.631)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4rl72"]
 size = Vector2(3.33193, 474.887)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v0rxw"]
-size = Vector2(4.720128, 165.098)
+size = Vector2(4.72013, 165.098)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cqmw0"]
-size = Vector2(911.826, 6.127533)
+size = Vector2(911.826, 6.12753)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xla3a"]
-size = Vector2(333.46655, 8.284454)
+size = Vector2(333.467, 8.28445)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7242p"]
-size = Vector2(432.03445, 8.178673)
+size = Vector2(432.034, 8.17867)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pmtb1"]
-size = Vector2(436.47665, 6.17576)
+size = Vector2(436.477, 6.17576)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_30eiq"]
-size = Vector2(350.406, 7.9930086)
+size = Vector2(350.406, 7.99301)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_imj5f"]
 size = Vector2(452.03, 11.972)
@@ -42,67 +42,67 @@ size = Vector2(452.03, 11.972)
 size = Vector2(287.653, 13.9673)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bwlst"]
-size = Vector2(320.972, 15.962317)
+size = Vector2(320.972, 15.9623)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jwqpl"]
-size = Vector2(106.067, 11.99575)
+size = Vector2(106.067, 11.9958)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5u5wn"]
-size = Vector2(374.28217, 17.981308)
+size = Vector2(374.282, 17.9813)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_83k4c"]
 size = Vector2(294.317, 17.9813)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1jfol"]
-size = Vector2(6.664062, 190.06097)
+size = Vector2(6.66406, 190.061)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5j71l"]
-size = Vector2(7.7748823, 231.46924)
+size = Vector2(7.77488, 231.469)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vf1f4"]
 size = Vector2(1.97832, 251.411)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jurcl"]
-size = Vector2(3.331983, 157.63052)
+size = Vector2(3.33198, 157.631)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_to47k"]
-size = Vector2(6.108617, 410.051)
+size = Vector2(6.10862, 410.051)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bqcbo"]
-size = Vector2(138.833, 9.976478)
+size = Vector2(138.833, 9.97648)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_87nli"]
-size = Vector2(9.995953, 288.336)
+size = Vector2(9.99595, 288.336)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c18xt"]
-size = Vector2(7.774086, 348.196)
+size = Vector2(7.77409, 348.196)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_du1wk"]
-size = Vector2(3.3320155, 335.21436)
+size = Vector2(3.33202, 335.214)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_32vai"]
-size = Vector2(4.4424953, 287.32666)
+size = Vector2(4.4425, 287.327)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h0oth"]
-size = Vector2(94.959076, 5.9859595)
+size = Vector2(94.9591, 5.98596)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dl8en"]
-size = Vector2(147.714, 11.971891)
+size = Vector2(147.714, 11.9719)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_us7wc"]
-size = Vector2(127.72206, 11.971956)
+size = Vector2(127.722, 11.972)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4ro3i"]
-size = Vector2(114.395, 9.976631)
+size = Vector2(114.395, 9.97663)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4vvyt"]
-size = Vector2(4.4423914, 183.56966)
+size = Vector2(4.44239, 183.57)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dmxwg"]
-size = Vector2(114.39523, 13.967139)
+size = Vector2(114.395, 13.9671)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dtkcs"]
-size = Vector2(6.663807, 594.618)
+size = Vector2(6.66381, 594.618)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_srya6"]
 size = Vector2(10, 317.28)
@@ -132,14 +132,6 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_dmxwg")
-}],
-"loop": true,
-"name": &"parado",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_dmxwg")
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_dtkcs")
@@ -147,239 +139,247 @@ animations = [{
 "loop": true,
 "name": &"andando",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dmxwg")
+}],
+"loop": true,
+"name": &"parado",
+"speed": 5.0
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_v6mw0"]
-height = 36.067276
+height = 36.0673
 
-[node name="Jogo" type="Node2D" unique_id=1518750316]
+[node name="Jogo" type="Node2D"]
 script = ExtResource("1_srya6")
 
-[node name="Fundo" type="Sprite2D" parent="." unique_id=2046756168]
+[node name="Fundo" type="Sprite2D" parent="."]
 position = Vector2(576.25, 321)
 scale = Vector2(0.894922, 0.504687)
 texture = ExtResource("1_k46e6")
 
-[node name="Paredes internas" type="StaticBody2D" parent="." unique_id=657542013]
+[node name="Paredes internas" type="StaticBody2D" parent="."]
 position = Vector2(575, 322)
 scale = Vector2(0.900391, 0.501172)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Paredes internas" unique_id=1453332971]
-position = Vector2(-396.49432, -551.707)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(-396.494, -551.707)
 shape = SubResource("RectangleShape2D_3bt0w")
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="Paredes internas" unique_id=656197762]
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Paredes internas"]
 position = Vector2(16.1041, -305.285)
 shape = SubResource("RectangleShape2D_4rl72")
 
-[node name="CollisionShape2D3" type="CollisionShape2D" parent="Paredes internas" unique_id=79743123]
-position = Vector2(-522.9673, -438.969)
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(-522.967, -438.969)
 shape = SubResource("RectangleShape2D_v0rxw")
 
-[node name="CollisionShape2D4" type="CollisionShape2D" parent="Paredes internas" unique_id=619395603]
-position = Vector2(-30.264648, 44.823975)
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(-30.2646, 44.824)
 shape = SubResource("RectangleShape2D_cqmw0")
 
-[node name="CollisionShape2D5" type="CollisionShape2D" parent="Paredes internas" unique_id=306769266]
-position = Vector2(-226.42926, -471.04773)
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(-226.429, -471.048)
 shape = SubResource("RectangleShape2D_xla3a")
 
-[node name="CollisionShape2D6" type="CollisionShape2D" parent="Paredes internas" unique_id=613973221]
-position = Vector2(-305.9782, -367.23804)
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(-305.978, -367.238)
 shape = SubResource("RectangleShape2D_7242p")
 
-[node name="CollisionShape2D7" type="CollisionShape2D" parent="Paredes internas" unique_id=2003060713]
-position = Vector2(-210.4643, -240.53125)
+[node name="CollisionShape2D7" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(-210.464, -240.531)
 shape = SubResource("RectangleShape2D_pmtb1")
 
-[node name="CollisionShape2D8" type="CollisionShape2D" parent="Paredes internas" unique_id=1511796924]
-position = Vector2(-280.15497, -111.7439)
+[node name="CollisionShape2D8" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(-280.155, -111.744)
 shape = SubResource("RectangleShape2D_30eiq")
 
-[node name="CollisionShape2D9" type="CollisionShape2D" parent="Paredes internas" unique_id=1845819320]
+[node name="CollisionShape2D9" type="CollisionShape2D" parent="Paredes internas"]
 position = Vector2(246.56, -79.813)
 shape = SubResource("RectangleShape2D_imj5f")
 
-[node name="CollisionShape2D10" type="CollisionShape2D" parent="Paredes internas" unique_id=98296028]
+[node name="CollisionShape2D10" type="CollisionShape2D" parent="Paredes internas"]
 position = Vector2(26.0998, 174.591)
 shape = SubResource("RectangleShape2D_bl1e7")
 
-[node name="CollisionShape2D11" type="CollisionShape2D" parent="Paredes internas" unique_id=282793724]
-position = Vector2(310.42096, -213.49933)
+[node name="CollisionShape2D11" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(310.421, -213.499)
 shape = SubResource("RectangleShape2D_bwlst")
 
-[node name="CollisionShape2D12" type="CollisionShape2D" parent="Paredes internas" unique_id=1943521063]
-position = Vector2(163.26202, -532.76306)
+[node name="CollisionShape2D12" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(163.262, -532.763)
 shape = SubResource("RectangleShape2D_jwqpl")
 
-[node name="CollisionShape2D13" type="CollisionShape2D" parent="Paredes internas" unique_id=1830491650]
-position = Vector2(441.47498, 174.57922)
+[node name="CollisionShape2D13" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(441.475, 174.579)
 shape = SubResource("RectangleShape2D_5u5wn")
 
-[node name="CollisionShape2D14" type="CollisionShape2D" parent="Paredes internas" unique_id=1290764810]
+[node name="CollisionShape2D14" type="CollisionShape2D" parent="Paredes internas"]
 position = Vector2(483.124, -339.205)
 shape = SubResource("RectangleShape2D_83k4c")
 
-[node name="CollisionShape2D15" type="CollisionShape2D" parent="Paredes internas" unique_id=2141486134]
-position = Vector2(493.1189, -539.9875)
+[node name="CollisionShape2D15" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(493.119, -539.987)
 shape = SubResource("RectangleShape2D_1jfol")
 
-[node name="CollisionShape2D16" type="CollisionShape2D" parent="Paredes internas" unique_id=801509773]
-position = Vector2(337.07605, -444.95108)
+[node name="CollisionShape2D16" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(337.076, -444.951)
 shape = SubResource("RectangleShape2D_5j71l")
 
-[node name="CollisionShape2D17" type="CollisionShape2D" parent="Paredes internas" unique_id=757635626]
+[node name="CollisionShape2D17" type="CollisionShape2D" parent="Paredes internas"]
 position = Vector2(113.406, -417.023)
 shape = SubResource("RectangleShape2D_vf1f4")
 
-[node name="CollisionShape2D18" type="CollisionShape2D" parent="Paredes internas" unique_id=512583974]
+[node name="CollisionShape2D18" type="CollisionShape2D" parent="Paredes internas"]
 position = Vector2(209.909, -413.032)
 shape = SubResource("RectangleShape2D_vf1f4")
 
-[node name="CollisionShape2D20" type="CollisionShape2D" parent="Paredes internas" unique_id=1758018558]
-position = Vector2(16.104187, 406.04828)
+[node name="CollisionShape2D20" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(16.1042, 406.048)
 shape = SubResource("RectangleShape2D_jurcl")
 
-[node name="CollisionShape2D21" type="CollisionShape2D" parent="Paredes internas" unique_id=2105344750]
-position = Vector2(-556.7025, 106.244995)
+[node name="CollisionShape2D21" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(-556.703, 106.245)
 shape = SubResource("RectangleShape2D_to47k")
 
-[node name="CollisionShape2D23" type="CollisionShape2D" parent="Paredes internas" unique_id=327279260]
-position = Vector2(81.07587, 334.21674)
+[node name="CollisionShape2D23" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(81.0759, 334.217)
 shape = SubResource("RectangleShape2D_bqcbo")
 
-[node name="CollisionShape2D24" type="CollisionShape2D" parent="Paredes internas" unique_id=164494475]
-position = Vector2(144.9372, 473.39618)
+[node name="CollisionShape2D24" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(144.937, 473.396)
 shape = SubResource("RectangleShape2D_87nli")
 
-[node name="CollisionShape2D25" type="CollisionShape2D" parent="Paredes internas" unique_id=662948736]
-position = Vector2(-301.53583, 447.4572)
+[node name="CollisionShape2D25" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(-301.536, 447.457)
 shape = SubResource("RectangleShape2D_c18xt")
 
-[node name="CollisionShape2D26" type="CollisionShape2D" parent="Paredes internas" unique_id=551117114]
-position = Vector2(-429.25787, 341.20038)
+[node name="CollisionShape2D26" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(-429.258, 341.2)
 shape = SubResource("RectangleShape2D_du1wk")
 
-[node name="CollisionShape2D27" type="CollisionShape2D" parent="Paredes internas" unique_id=735577887]
-position = Vector2(430.92395, 474.8869)
+[node name="CollisionShape2D27" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(430.924, 474.887)
 shape = SubResource("RectangleShape2D_32vai")
 
-[node name="CollisionShape2D28" type="CollisionShape2D" parent="Paredes internas" unique_id=371651890]
-position = Vector2(481.73535, 334.2166)
+[node name="CollisionShape2D28" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(481.735, 334.217)
 shape = SubResource("RectangleShape2D_h0oth")
 
-[node name="CollisionShape2D29" type="CollisionShape2D" parent="Paredes internas" unique_id=1652513136]
-position = Vector2(-369.28394, 175.58844)
+[node name="CollisionShape2D29" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(-369.284, 175.588)
 shape = SubResource("RectangleShape2D_dl8en")
 
-[node name="CollisionShape2D30" type="CollisionShape2D" parent="Paredes internas" unique_id=1378930538]
-position = Vector2(-493.6745, 303.28912)
+[node name="CollisionShape2D30" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(-493.674, 303.289)
 shape = SubResource("RectangleShape2D_us7wc")
 
-[node name="CollisionShape2D31" type="CollisionShape2D" parent="Paredes internas" unique_id=1542284543]
-position = Vector2(-489.232, 497.83307)
+[node name="CollisionShape2D31" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(-489.232, 497.833)
 shape = SubResource("RectangleShape2D_4ro3i")
 
-[node name="CollisionShape2D32" type="CollisionShape2D" parent="Paredes internas" unique_id=1311805031]
-position = Vector2(526.438, 425.00385)
+[node name="CollisionShape2D32" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(526.438, 425.004)
 shape = SubResource("RectangleShape2D_4vvyt")
 
-[node name="CollisionShape2D19" type="CollisionShape2D" parent="Paredes internas" unique_id=92332617]
-position = Vector2(-562.53314, -244.42694)
+[node name="CollisionShape2D19" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(-562.533, -244.427)
 shape = SubResource("RectangleShape2D_dmxwg")
 
-[node name="CollisionShape2D33" type="CollisionShape2D" parent="Paredes internas" unique_id=1960173701]
-position = Vector2(-111.06287, 193.5412)
+[node name="CollisionShape2D33" type="CollisionShape2D" parent="Paredes internas"]
+position = Vector2(-111.063, 193.541)
 shape = SubResource("RectangleShape2D_dtkcs")
 
-[node name="CollisionShape2D22" type="CollisionShape2D" parent="Paredes internas" unique_id=1332546149]
+[node name="CollisionShape2D22" type="CollisionShape2D" parent="Paredes internas"]
 position = Vector2(274.325, 331.224)
 shape = SubResource("RectangleShape2D_srya6")
 
-[node name="ColorRect" type="ColorRect" parent="Paredes internas" unique_id=1713886767]
+[node name="ColorRect" type="ColorRect" parent="Paredes internas"]
 offset_left = 173.258
 offset_top = 163.616
-offset_right = 255.44458
+offset_right = 255.445
 offset_bottom = 187.56
 color = Color(0.470588, 0.305882, 0.294118, 1)
 
-[node name="ColorRect2" type="ColorRect" parent="Paredes internas" unique_id=1522669142]
-offset_left = 216.5726
+[node name="ColorRect2" type="ColorRect" parent="Paredes internas"]
+offset_left = 216.573
 offset_top = -544.723
 offset_right = 267.662
 offset_bottom = -518.784
 color = Color(0.470588, 0.305882, 0.294118, 1)
 
-[node name="ColorRect3" type="ColorRect" parent="Paredes internas" unique_id=468403772]
+[node name="ColorRect3" type="ColorRect" parent="Paredes internas"]
 offset_left = -124.39
 offset_top = 486.859
 offset_right = -97.7354
 offset_bottom = 544.817
 color = Color(0.470588, 0.305882, 0.294118, 1)
 
-[node name="ColorRect4" type="ColorRect" parent="Paredes internas" unique_id=1747272588]
+[node name="ColorRect4" type="ColorRect" parent="Paredes internas"]
 offset_left = 479.792
 offset_top = -440.966
 offset_right = 519.792
 offset_bottom = -408.948
 color = Color(0.470588, 0.305882, 0.294118, 1)
 
-[node name="ColorRect5" type="ColorRect" parent="Paredes internas" unique_id=1287748126]
+[node name="ColorRect5" type="ColorRect" parent="Paredes internas"]
 offset_left = 456.469
-offset_top = -203.52292
+offset_top = -203.523
 offset_right = 474.239
-offset_bottom = -81.80823
+offset_bottom = -81.8082
 color = Color(0.470588, 0.305882, 0.294118, 1)
 
-[node name="ColorRect6" type="ColorRect" parent="Paredes internas" unique_id=604938636]
+[node name="ColorRect6" type="ColorRect" parent="Paredes internas"]
 offset_left = -305.202
-offset_top = 183.56973
+offset_top = 183.57
 offset_right = -286.202
 offset_bottom = 269.457
 color = Color(0.490196, 0.317647, 0.305882, 1)
 
-[node name="ColorRect7" type="ColorRect" parent="Paredes internas" unique_id=1092550680]
+[node name="ColorRect7" type="ColorRect" parent="Paredes internas"]
 offset_left = -503.0
 offset_top = -249.0
-offset_right = -433.14514
+offset_right = -433.145
 offset_bottom = -237.0
 color = Color(0.470588, 0.305882, 0.294118, 1)
 
-[node name="Paredes externas" type="StaticBody2D" parent="." unique_id=132193208]
+[node name="Paredes externas" type="StaticBody2D" parent="."]
 
-[node name="Cima" type="CollisionShape2D" parent="Paredes externas" unique_id=1468899484]
+[node name="Cima" type="CollisionShape2D" parent="Paredes externas"]
 position = Vector2(626.5, 1)
 shape = SubResource("RectangleShape2D_vsks2")
 
-[node name="Baixo" type="CollisionShape2D" parent="Paredes externas" unique_id=1119685058]
+[node name="Baixo" type="CollisionShape2D" parent="Paredes externas"]
 position = Vector2(546, 639.5)
 shape = SubResource("RectangleShape2D_k46e6")
 
-[node name="Esquerda" type="CollisionShape2D" parent="Paredes externas" unique_id=1560924221]
+[node name="Esquerda" type="CollisionShape2D" parent="Paredes externas"]
 position = Vector2(5.5, 338)
 shape = SubResource("RectangleShape2D_1frua")
 
-[node name="Direita" type="CollisionShape2D" parent="Paredes externas" unique_id=1021320581]
+[node name="Direita" type="CollisionShape2D" parent="Paredes externas"]
 position = Vector2(1142.5, 300.5)
 shape = SubResource("RectangleShape2D_bkotw")
 
-[node name="Rato" type="CharacterBody2D" parent="." unique_id=2002153418]
+[node name="Rato" type="CharacterBody2D" parent="."]
 position = Vector2(65, 39)
 script = ExtResource("2_bkotw")
 
-[node name="Animação" type="AnimatedSprite2D" parent="Rato" unique_id=872814534]
-position = Vector2(-3.8146973e-06, -1.0000019)
-scale = Vector2(0.061155707, 0.07324841)
+[node name="Animação" type="AnimatedSprite2D" parent="Rato"]
+position = Vector2(-3.8147e-06, -1)
+scale = Vector2(0.0611557, 0.0732484)
 sprite_frames = SubResource("SpriteFrames_srya6")
 animation = &"parado"
 
-[node name="Colisão" type="CollisionShape2D" parent="Rato" unique_id=2146932855]
+[node name="Colisão" type="CollisionShape2D" parent="Rato"]
 position = Vector2(5, 0)
-rotation = -1.5707964
-skew = -0.061086524
+rotation = -1.5708
+skew = -0.0610865
 shape = SubResource("CapsuleShape2D_v6mw0")
 
-[node name="Camera2D" type="Camera2D" parent="Rato" unique_id=556129976]
+[node name="Camera2D" type="Camera2D" parent="Rato"]
 position = Vector2(0, -2)
 zoom = Vector2(2, 2)
 limit_left = 0
@@ -388,40 +388,40 @@ limit_right = 1150
 limit_bottom = 640
 limit_smoothed = true
 
-[node name="Gato" parent="." unique_id=82932758 instance=ExtResource("5_dmxwg")]
+[node name="Gato" parent="." instance=ExtResource("5_dmxwg")]
 position = Vector2(9, -18)
 
-[node name="Ratoeira" parent="." unique_id=1961865985 instance=ExtResource("7_v6mw0")]
+[node name="Ratoeira" parent="." instance=ExtResource("7_v6mw0")]
 position = Vector2(534, 173)
 
-[node name="Ratoeira2" parent="." unique_id=726538845 instance=ExtResource("7_v6mw0")]
+[node name="Ratoeira2" parent="." instance=ExtResource("7_v6mw0")]
 position = Vector2(119, 295)
 
-[node name="Ratoeira3" parent="." unique_id=57581320 instance=ExtResource("7_v6mw0")]
+[node name="Ratoeira3" parent="." instance=ExtResource("7_v6mw0")]
 position = Vector2(745, 552)
 
-[node name="Migalha" parent="." unique_id=1847417925 instance=ExtResource("8_c77ad")]
+[node name="Migalha" parent="." instance=ExtResource("8_c77ad")]
 position = Vector2(859, 246)
 
-[node name="Migalha2" parent="." unique_id=51598733 instance=ExtResource("8_c77ad")]
+[node name="Migalha2" parent="." instance=ExtResource("8_c77ad")]
 position = Vector2(1015, 351)
 
-[node name="Migalha3" parent="." unique_id=1559203587 instance=ExtResource("8_c77ad")]
+[node name="Migalha3" parent="." instance=ExtResource("8_c77ad")]
 position = Vector2(527, 239)
 
-[node name="Migalha4" parent="." unique_id=732582322 instance=ExtResource("8_c77ad")]
+[node name="Migalha4" parent="." instance=ExtResource("8_c77ad")]
 position = Vector2(855, 457)
 
-[node name="Migalha5" parent="." unique_id=1457078663 instance=ExtResource("8_c77ad")]
+[node name="Migalha5" parent="." instance=ExtResource("8_c77ad")]
 position = Vector2(648, 377)
 
-[node name="Queijo" parent="." unique_id=2015550826 instance=ExtResource("9_s5cfb")]
+[node name="Queijo" parent="." instance=ExtResource("9_s5cfb")]
 position = Vector2(1122, 627)
 
-[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1700000001]
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
 process_mode = 3
 
-[node name="LabelVidas" type="Label" parent="CanvasLayer" unique_id=1700000002]
+[node name="LabelVidas" type="Label" parent="CanvasLayer"]
 offset_left = 18.0
 offset_top = 42.0
 offset_right = 218.0
@@ -432,10 +432,10 @@ theme_override_constants/outline_size = 8
 theme_override_font_sizes/font_size = 30
 text = "Vidas: 3"
 
-[node name="Pausa" type="Node" parent="CanvasLayer" unique_id=1700000010]
+[node name="Pausa" type="Node" parent="CanvasLayer"]
 script = ExtResource("10_pausa")
 
-[node name="BotaoPausa" type="Button" parent="CanvasLayer/Pausa" unique_id=1700000011]
+[node name="BotaoPausa" type="Button" parent="CanvasLayer/Pausa"]
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
@@ -448,7 +448,7 @@ focus_mode = 0
 theme_override_font_sizes/font_size = 22
 text = "Pausar"
 
-[node name="Overlay" type="ColorRect" parent="CanvasLayer/Pausa" unique_id=1700000012]
+[node name="Overlay" type="ColorRect" parent="CanvasLayer/Pausa"]
 visible = false
 anchors_preset = 15
 anchor_right = 1.0
@@ -458,7 +458,7 @@ grow_vertical = 2
 mouse_filter = 2
 color = Color(0, 0, 0, 0.5)
 
-[node name="LabelPausado" type="Label" parent="CanvasLayer/Pausa/Overlay" unique_id=1700000013]
+[node name="LabelPausado" type="Label" parent="CanvasLayer/Pausa/Overlay"]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -479,7 +479,7 @@ text = "PAUSADO"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Continuar" type="Button" parent="CanvasLayer/Pausa/Overlay" unique_id=1700000016]
+[node name="Continuar" type="Button" parent="CanvasLayer/Pausa/Overlay"]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -495,7 +495,7 @@ grow_vertical = 2
 theme_override_font_sizes/font_size = 23
 text = "Continuar"
 
-[node name="Reiniciar" type="Button" parent="CanvasLayer/Pausa/Overlay" unique_id=1700000014]
+[node name="Reiniciar" type="Button" parent="CanvasLayer/Pausa/Overlay"]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -511,7 +511,7 @@ grow_vertical = 2
 theme_override_font_sizes/font_size = 23
 text = "Reiniciar"
 
-[node name="Sair" type="Button" parent="CanvasLayer/Pausa/Overlay" unique_id=1700000015]
+[node name="Sair" type="Button" parent="CanvasLayer/Pausa/Overlay"]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
