@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://cowbwibbmiwf8"]
+
+[ext_resource type="Script" uid="uid://cjatj2wophjsj" path="res://scripts/queijo.gd" id="1_f0trd"]
+[ext_resource type="Texture2D" uid="uid://dmga2bgobx1rp" path="res://imagens/Captura_de_tela_2026-10-06_082643-removebg-preview.png" id="2_psqrw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cc4vg"]
+size = Vector2(53, 50)
+
+[node name="Queijo" type="Node2D" unique_id=2015550826]
+script = ExtResource("1_f0trd")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1544848921]
+position = Vector2(-1.0000038, 2.9999962)
+scale = Vector2(0.106842145, 0.11138621)
+texture = ExtResource("2_psqrw")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=864397792]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=2051233729]
+position = Vector2(-3.5, 1)
+shape = SubResource("RectangleShape2D_cc4vg")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

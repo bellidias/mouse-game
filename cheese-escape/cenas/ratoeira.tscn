@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://b84xp83740w88"]
+
+[ext_resource type="Texture2D" uid="uid://cy8vww7tcwb88" path="res://imagens/ratoeira.png" id="1_hfvbp"]
+[ext_resource type="Script" uid="uid://b5bfhqnetnxeg" path="res://scripts/ratoeira.gd" id="1_ot5yb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dmxwg"]
+size = Vector2(26, 20)
+
+[node name="Ratoeira" type="Node2D" unique_id=1961865985]
+script = ExtResource("1_ot5yb")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1300483069]
+position = Vector2(-1, 0)
+scale = Vector2(0.2529412, 0.27083334)
+texture = ExtResource("1_hfvbp")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=2084726099]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1373790971]
+position = Vector2(-3, 0)
+shape = SubResource("RectangleShape2D_dmxwg")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

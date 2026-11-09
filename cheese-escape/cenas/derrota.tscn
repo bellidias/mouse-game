@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://bhvos5wx5tkdy"]
+
+[ext_resource type="Script" uid="uid://cnlbqjitamlok" path="res://scripts/derrota.gd" id="1_5am7b"]
+[ext_resource type="Texture2D" uid="uid://drph2f1s54t4i" path="res://imagens/Captura_de_tela_2026-10-11_135527-removebg-preview.png" id="1_n2tr4"]
+[ext_resource type="Texture2D" uid="uid://dg821iah7d4c3" path="res://imagens/Captura_de_tela_2026-10-11_143951-removebg-preview.png" id="2_5am7b"]
+
+[node name="Derrota" type="Node2D" unique_id=1171797486]
+script = ExtResource("1_5am7b")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1710088156]
+offset_right = 1153.0
+offset_bottom = 646.0
+color = Color(0.5649617, 0.5649616, 0.5649616, 1)
+
+[node name="garras" type="Sprite2D" parent="." unique_id=1556211486]
+position = Vector2(418, 144)
+scale = Vector2(0.44362748, 0.44362745)
+texture = ExtResource("1_n2tr4")
+
+[node name="gato" type="Sprite2D" parent="." unique_id=514817524]
+position = Vector2(556, 305)
+scale = Vector2(0.49642855, 0.49642852)
+texture = ExtResource("2_5am7b")
+
+[node name="Reiniciar" type="Button" parent="." unique_id=1497905956]
+offset_left = 422.0
+offset_top = 375.0
+offset_right = 693.0
+offset_bottom = 418.0
+theme_override_font_sizes/font_size = 23
+text = "Reiniciar"
+
+[node name="Sair" type="Button" parent="." unique_id=49758214]
+offset_left = 423.0
+offset_top = 437.0
+offset_right = 695.0
+offset_bottom = 480.0
+theme_override_font_sizes/font_size = 23
+text = "Sair"
+
+[node name="Label" type="Label" parent="." unique_id=1011233142]
+offset_left = 437.0
+offset_top = 138.0
+offset_right = 689.0
+offset_bottom = 193.0
+theme_override_font_sizes/font_size = 40
+text = "Você perdeu!"
+
+[connection signal="pressed" from="Reiniciar" to="." method="_on_reiniciar_pressed"]
+[connection signal="pressed" from="Sair" to="." method="_on_sair_pressed"]

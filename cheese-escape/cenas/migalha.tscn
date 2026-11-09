@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://dckhnr6on55m7"]
+
+[ext_resource type="Script" uid="uid://8xp8jb8lntyy" path="res://scripts/migalha.gd" id="1_46hbe"]
+[ext_resource type="Texture2D" uid="uid://c7r2ov3t1mtw3" path="res://imagens/WhatsApp_Image_2026-10-16_at_16.59.08__1_-removebg-preview.png" id="2_1s37b"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kfigh"]
+size = Vector2(32.25, 33.75)
+
+[node name="Migalha" type="Node2D" unique_id=1847417925]
+script = ExtResource("1_46hbe")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=20007197]
+position = Vector2(1.9999981, 2.0000029)
+scale = Vector2(0.067999996, 0.073000014)
+texture = ExtResource("2_1s37b")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=621256271]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=401929524]
+position = Vector2(2, 2)
+shape = SubResource("RectangleShape2D_kfigh")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

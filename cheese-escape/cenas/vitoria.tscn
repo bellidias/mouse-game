@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://7cqi38yamudm"]
+
+[ext_resource type="Script" uid="uid://c1t67bnr5f0lv" path="res://scripts/vitoria.gd" id="1_cjyot"]
+[ext_resource type="Texture2D" uid="uid://dmfviadf2yumx" path="res://imagens/Captura_de_tela_2026-10-11_145045-removebg-preview.png" id="2_cjyot"]
+
+[node name="Vitoria" type="Node2D" unique_id=31074532]
+script = ExtResource("1_cjyot")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1305919015]
+offset_right = 1148.0
+offset_bottom = 650.0
+color = Color(0.9529412, 0.9529412, 0.4509804, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1090108307]
+position = Vector2(554, 291)
+scale = Vector2(0.38490567, 0.46178344)
+texture = ExtResource("2_cjyot")
+
+[node name="Reiniciar" type="Button" parent="." unique_id=38741300]
+offset_left = 432.0
+offset_top = 414.0
+offset_right = 673.0
+offset_bottom = 458.0
+theme_override_font_sizes/font_size = 23
+text = "Reiniciar"
+
+[node name="Sair" type="Button" parent="." unique_id=60383955]
+offset_left = 431.0
+offset_top = 475.0
+offset_right = 672.0
+offset_bottom = 525.0
+theme_override_font_sizes/font_size = 23
+text = "Sair"
+
+[node name="Label" type="Label" parent="." unique_id=30023614]
+offset_left = 410.0
+offset_top = 110.0
+offset_right = 706.0
+offset_bottom = 173.0
+theme_override_colors/font_color = Color(0.18359044, 0.18359044, 0.18359044, 1)
+theme_override_font_sizes/font_size = 45
+text = "Você venceu!!"
+
+[connection signal="pressed" from="Reiniciar" to="." method="_on_reiniciar_pressed"]
+[connection signal="pressed" from="Sair" to="." method="_on_sair_pressed"]
